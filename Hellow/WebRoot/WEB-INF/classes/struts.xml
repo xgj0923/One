@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	
+	<package name="helloworld" extends="struts-default"
+	         namespace="/hellow">
+	     <!-- 配置WelcomeAction 
+	         属性name 指定访问Action时使用的名称,访问时以.action结尾
+	             method 指定处理业务的方法名称，默认值是execute
+	     -->
+	     <action name="test"
+	             class="com.action.TestAction"
+	             method="execute">
+	         <!-- 配置Result，用于将视图页面映射为逻辑名称 -->
+	         <result name="success">/index.jsp</result>
+	         <result name="fail">/nameform.jsp</result>
+	     </action>    
+	         
+	         
+	         
+	         
+	         
+	         
+	</package>
+</struts>

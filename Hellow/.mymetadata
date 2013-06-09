@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Hellow"
+  id="myeclipse.1369460539921"
+  context-root="/Hellow"
+  j2ee-spec="5.0"
+  archive="Hellow.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
